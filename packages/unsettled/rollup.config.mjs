@@ -1,4 +1,6 @@
 import ts from "@rollup/plugin-typescript";
+import nodeResolve from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
 import { defineConfig } from "rollup";
 
 export default defineConfig(() => ({
@@ -20,7 +22,9 @@ export default defineConfig(() => ({
     },
   ],
   plugins: [
+    nodeResolve(),
+    commonjs(),
     ts({ declaration: true, declarationMap: true, declarationDir: "dist" }),
   ],
-  external: ["vitest", "pretty-format"],
+  external: ["vitest"],
 }));

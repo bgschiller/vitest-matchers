@@ -5,6 +5,7 @@
     "vitest-unsettled": "0.0.0"
   },
   "changesets": [
-    "heavy-paws-explode"
+    "heavy-paws-explode",
+    "ten-moons-walk"
   ]
 }
