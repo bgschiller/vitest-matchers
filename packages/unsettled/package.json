@@ -1,0 +1,27 @@
+{
+  "name": "@bgschiller/vitest-unsettled",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js"
+    },
+    "./extend-expect": {
+      "types": "./dist/extend-expect.d.ts",
+      "import": "./dist/extend-expect.mjs",
+      "default": "./dist/extend-expect.js"
+    }
+  },
+  "scripts": {
+    "test": "vitest",
+    "build": "rollup -c rollup.config.mjs",
+    "format": "prettier --write . '**/*.{ts,js}'"
+  },
+  "peerDependencies": {
+    "vitest": ">=0.31.0"
+  }
+}
