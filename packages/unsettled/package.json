@@ -1,5 +1,5 @@
 {
-  "name": "@bgschiller/vitest-unsettled",
+  "name": "vitest-unsettled",
   "version": "0.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

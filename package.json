@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/node": "^20.12.7",
     "prettier": "^3.0.2",
