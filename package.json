@@ -1,4 +1,10 @@
 {
+  "private": true,
+  "name": "@bgschiller/vitest-matchers",
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@rollup/plugin-typescript": "^11.1.6",

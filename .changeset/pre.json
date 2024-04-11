@@ -1,0 +1,10 @@
+{
+  "mode": "pre",
+  "tag": "alpha",
+  "initialVersions": {
+    "vitest-unsettled": "0.0.0"
+  },
+  "changesets": [
+    "heavy-paws-explode"
+  ]
+}
