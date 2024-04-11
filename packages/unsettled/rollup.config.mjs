@@ -7,14 +7,14 @@ export default defineConfig(() => ({
     {
       dir: "dist",
       entryFileNames: "[name].js",
-      chunkFileNames: "[name]-[hash].js",
+      chunkFileNames: "[name].js",
       format: "cjs",
       sourcemap: true,
     },
     {
       dir: "dist",
       entryFileNames: "[name].mjs",
-      chunkFileNames: "[name]-[hash].mjs",
+      chunkFileNames: "[name].mjs",
       format: "esm",
       sourcemap: true,
     },
