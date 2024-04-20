@@ -1,0 +1,14 @@
+{
+  "include": ["index.test.ts", "test-setup.ts"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitOverride": true,
+    "noErrorTruncation": true
+  }
+}
