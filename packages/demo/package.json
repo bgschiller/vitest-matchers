@@ -1,0 +1,13 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "0.0.0",
+  "devDependencies": {
+    "vite": "^5.2.9",
+    "vitest": "^0.34.3",
+    "vitest-unsettled": "workspace:*"
+  },
+  "scripts": {
+    "test": "vitest"
+  }
+}

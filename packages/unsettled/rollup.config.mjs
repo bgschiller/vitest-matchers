@@ -24,7 +24,12 @@ export default defineConfig(() => ({
   plugins: [
     nodeResolve(),
     commonjs(),
-    ts({ declaration: true, declarationMap: true, declarationDir: "dist" }),
+    ts({
+      declaration: true,
+      declarationMap: true,
+      declarationDir: "dist",
+      module: "Node16",
+    }),
   ],
   external: ["vitest"],
 }));

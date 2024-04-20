@@ -1,0 +1,8 @@
+{
+  "include": ["index.test.ts", "test-setup.ts"],
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "skipLibCheck": true
+  }
+}
